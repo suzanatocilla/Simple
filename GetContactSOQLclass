@@ -3,7 +3,10 @@ public class prv {
     List<Contact> peopleToSpam = [SELECT Id, Email FROM Contact];
 
     Contact firstContact = peopleToSpam[0];
+    String kape = firstContact.Email;
+
     System.debug(firstContact);
+        System.debug(kape);
 }
 }
 
