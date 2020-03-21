@@ -1,0 +1,9 @@
+public class prv {
+    public void suzi(){
+    List<Contact> peopleToSpam = [SELECT Id, Email FROM Contact];
+
+    Contact firstContact = peopleToSpam[0];
+    System.debug(firstContact);
+}
+}
+
